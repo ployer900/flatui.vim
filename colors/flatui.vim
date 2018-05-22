@@ -20,15 +20,15 @@ let g:colors_name="flatui"
 " The Colors -----------------------------------------------{{{
 " Define reusable colors
 let s:midnightBlue=   { "gui": "#2c3e50", "cterm": "236"  }
-let s:clouds=         { "gui": "#ecf0f1", "cterm": "255" }
-let s:silver=         { "gui": "#e8e8e8", "cterm": "7" }
+let s:clouds=         { "gui": "#ecf0f1", "cterm": "15" }
+let s:silver=         { "gui": "#e8e8e8", "cterm": "248" }
 let s:wetAsphalt=     { "gui": "#34495e", "cterm": "237" }
 let s:concrete=       { "gui": "#95a5a6", "cterm": "247" }
 let s:asbestos=       { "gui": "#7f8c8d", "cterm": "245" }
 
 let s:turquoise=      { "gui": "#1abc9c", "cterm": "36"  }
 let s:greenSea=       { "gui": "#16a085", "cterm": "29" }
-let s:emerald=        { "gui": "#2ecc71", "cterm": "41" }
+let s:emerald=        { "gui": "#2ecc71", "cterm": "42" }
 let s:nephritis=      { "gui": "#27ae60", "cterm": "35" }
 
 let s:peterRiver=     { "gui": "#3498db", "cterm": "33"  }
@@ -135,7 +135,7 @@ endif
 "}}}
 
 " Highlights - UI ------------------------------------------{{{
-  call s:h("Normal",       { "fg": s:norm, "bg": s:bg })
+  call s:h("Normal",       { "fg": s:norm, "": s:bg })
   call s:h("NonText",      { "fg": s:neutral1 })
   call s:h("Cursor",       { "fg": s:bg, "bg": s:lightNorm })
   call s:h("Visual",       { "bg": s:lightAccent2, "fg": s:bg })
